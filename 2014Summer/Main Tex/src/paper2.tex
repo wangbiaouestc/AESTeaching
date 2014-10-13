@@ -1,5 +1,13 @@
-In \cite{Paper2} they proposed a dynamic model for parallel H.264/AVC video encoding on hybrid GPU+CPU. First they analysed the dependencies of the encoding process of H.264/AVC. For their model to work they needed concrete information on every part of the algorithm itself and its possibility to be parallelised. These dependencies analysis showed, that parallel processing can only be considered within the scope of a single frame. Inter-prediction usually can not start before updating the list of referenced frames. The deblocking-filter for instance can not be applied on two different regions of each slice, because it has intra-frame dependencies, one point that was improved in H.265. \\
-The conclusion of the analyses however indicates, that the best possibilities to process H.264 in parallel are the interpolation and the ME. Motion estimation is like already mentioned the most compute intense part of the algorithm anyway and also the main approach of the other papers reviewed in this article. Interpolation however is also interesting, because GPUs are mostly equipped with an interpolation unit.\\
+In \cite{Paper2} they proposed a dynamic model for parallel H.264/AVC video encoding on hybrid GPU+CPU. 
+First they analysed the dependencies of the encoding process of H.264/AVC. 
+For their model to work they needed concrete information on every part of the algorithm itself and its possibility to be parallelised. 
+These dependencies analysis showed, that parallel processing can only be considered within the scope of a single frame. 
+Inter-prediction usually can not start before updating the list of referenced frames. 
+The deblocking-filter for instance can not be applied on two different regions of each slice, because it has intra-frame dependencies, one point that was improved in H.265. \\
+The conclusion of the analyses however indicates, that the best possibilities to process H.264 in parallel are the interpolation and the ME. 
+Motion estimation is like already mentioned the most compute intense part of the algorithm anyway and also the main approach of the other papers reviewed in this article. 
+\todo{Interpolation however is also interesting, because GPUs are mostly equipped with an interpolation unit, 
+Here the interpolation unit is a hardware solution, however, we are talking about software solution based on GPU, therefore delete this sentence to avoid confusion}.\\
 
 \begin{figure}[H]
 
