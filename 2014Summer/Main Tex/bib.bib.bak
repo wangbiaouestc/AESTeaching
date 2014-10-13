@@ -1,0 +1,269 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: UTF-8
+
+@INPROCEEDINGS{bjontegaard,
+  author = {Bj{\o}ntegaard, G},
+  title = {document VCEG-M33: Calculation of average PSNR differences between
+	RD-curves},
+  booktitle = {ITU-T VCEG Meeting, Austin, Texas, USA, Tech. Rep},
+  year = {2001}
+}
+
+@INPROCEEDINGS{chen2008h,
+  author = {Chen, Wei-Nien and Hang, Hsueh-Ming},
+  title = {H. 264/AVC motion estimation implmentation on compute unified device
+	architecture (CUDA)},
+  booktitle = {Multimedia and Expo, 2008 IEEE International Conference on},
+  year = {2008},
+  pages = {697--700},
+  organization = {IEEE}
+}
+
+@ARTICLE{Paper1,
+  author = {Cheung, Ngai-Man and Fan, Xiaopeng and Au, Oscar C and Kung, Man-Cheung},
+  title = {Video coding on multicore graphics processors},
+  journal = {Signal Processing Magazine, IEEE},
+  year = {2010},
+  volume = {27},
+  pages = {79--89},
+  number = {2},
+  publisher = {IEEE}
+}
+
+@MISC{hmencoder,
+  author = {Heinrich Hertz Institute - Fraunhofer},
+  title = {HM 9.0 encoder},
+  year = {2014},
+  note = {\url{https:llhevc.hhi.fraunhofer.de/svnlsvn_HEVCSoftware}},
+  owner = {mli},
+  timestamp = {2014.07.04}
+}
+
+@ARTICLE{geforce8800,
+  author = {GeForce, NVIDIA},
+  title = {8800 GPU architecture overview},
+  journal = {Technical Brief TB-02787-001 v0},
+  year = {2006},
+  volume = {9}
+}
+
+@BOOK{MPEG2,
+  title = {Digital Video: An Introduction to MPEG-2: An Introduction to MPEG-2},
+  publisher = {Springer},
+  year = {1997},
+  author = {Haskell, Barry G}
+}
+
+@BOOK{MPEG2_Overview,
+  title = {Digital Video: An Introduction to MPEG-2: An Introduction to MPEG-2},
+  publisher = {Springer},
+  year = {1997},
+  author = {Haskell, Barry G}
+}
+
+@INPROCEEDINGS{ME2,
+  author = {Ho, Chi-Wang and Au, Oscar C and Chan, S-HG and Yip, Shu-Kei and
+	Wong, Hoi-Ming},
+  title = {Motion estimation for H. 264/AVC using programmable graphics hardware},
+  booktitle = {Multimedia and Expo, 2006 IEEE International Conference on},
+  year = {2006},
+  pages = {2049--2052},
+  organization = {IEEE}
+}
+
+@MISC{intelsse4,
+  author = {Intel},
+  title = {Intel: SSE4 Programming Reference},
+  year = {2007},
+  note = {\url{http://edc.intel.com/Link.aspx?id=1630}},
+  owner = {mirko},
+  timestamp = {2014.07.03}
+}
+
+@MISC{JM172,
+  author = {ITU},
+  title = {ITU-T: JVT Reference Software unofficial version 17.2},
+  year = {2010},
+  note = {\url{http://iphome.hhi.de/suehring/tml/download}},
+  owner = {mirko},
+  timestamp = {2014.07.02}
+}
+
+@INPROCEEDINGS{ME1,
+  author = {Lin, Yu-Cheng and Li, Pei-Lun and Chang, Chin-Hsiang and Wu, Chi-Ling
+	and Tsao, You-Ming and Chien, Shao-Yi},
+  title = {Multi-pass algorithm of motion estimation in video encoding for generic
+	GPU},
+  booktitle = {Circuits and Systems, 2006. ISCAS 2006. Proceedings. 2006 IEEE International
+	Symposium on},
+  year = {2006},
+  pages = {4--pp},
+  organization = {IEEE}
+}
+
+@ARTICLE{H261_Overview,
+  author = {Liou, Ming},
+  title = {Overview of the p$\times$ 64 kbit/s video coding standard},
+  journal = {Communications of the ACM},
+  year = {1991},
+  volume = {34},
+  pages = {59--63},
+  number = {4},
+  publisher = {ACM}
+}
+
+@ARTICLE{cabac,
+  author = {Marpe, Detlev and Schwarz, Heiko and Wiegand, Thomas},
+  title = {Context-based adaptive binary arithmetic coding in the H. 264/AVC
+	video compression standard},
+  journal = {Circuits and Systems for Video Technology, IEEE Transactions on},
+  year = {2003},
+  volume = {13},
+  pages = {620--636},
+  number = {7},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{Paper2,
+  author = {Momcilovic, Svetislav and Roma, Nuno and Sousa, Leonel},
+  title = {Multi-level parallelization of advanced video coding on hybrid CPU+
+	GPU platforms},
+  booktitle = {Euro-Par 2012: Parallel Processing Workshops},
+  year = {2013},
+  pages = {165--174},
+  organization = {Springer}
+}
+
+@INPROCEEDINGS{ME4,
+  author = {Momcilovic, Svetislav and Sousa, Leonel},
+  title = {Development and evaluation of scalable video motion estimators on
+	GPU},
+  booktitle = {Signal Processing Systems, 2009. SiPS 2009. IEEE Workshop on},
+  year = {2009},
+  pages = {291--296},
+  organization = {IEEE}
+}
+
+@MISC{nvidia2programming,
+  author = {Nvidia},
+  title = {CUDA programming guide},
+  howpublished = {Tech. Rep.},
+  year = {2009},
+  publisher = {Version}
+}
+
+@ARTICLE{deblock1,
+  author = {Pieters, Bart and Hollemeersch, C-FJ and De Cock, Jan and Lambert,
+	Peter and De Neve, Wesley and Van de Walle, Rik},
+  title = {Parallel deblocking filtering in MPEG-4 AVC/H. 264 on massively parallel
+	architectures},
+  journal = {Circuits and Systems for Video Technology, IEEE Transactions on},
+  year = {2011},
+  volume = {21},
+  pages = {96--100},
+  number = {1},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{pieters2009motion,
+  author = {Pieters, Bart and Hollemeersch, Charles F and Lambert, Peter and
+	Van de Walle, Rik},
+  title = {Motion estimation for H. 264/AVC on multiple GPUs using NVIDIA CUDA},
+  booktitle = {SPIE Optical Engineering+ Applications},
+  year = {2009},
+  pages = {74430X--74430X},
+  organization = {International Society for Optics and Photonics}
+}
+
+@ARTICLE{HEVC_VS_AVC,
+  author = {Pourazad, Mahsa T and Doutre, Colin and Azimi, Maryam and Nasiopoulos,
+	Panos},
+  title = {HEVC: the new gold standard for video compression: how does HEVC
+	compare with H. 264/AVC?},
+  journal = {Consumer Electronics Magazine, IEEE},
+  year = {2012},
+  volume = {1},
+  pages = {36--46},
+  number = {3},
+  publisher = {IEEE}
+}
+
+@BOOK{richardson2004h,
+  title = {H. 264 and MPEG-4 video compression: video coding for next-generation
+	multimedia},
+  year = {2004},
+  author = {Richardson, Iain E}
+}
+
+@ARTICLE{quadtree,
+  author = {Samet, Hanan},
+  title = {The quadtree and related hierarchical data structures},
+  journal = {ACM Computing Surveys (CSUR)},
+  year = {1984},
+  volume = {16},
+  pages = {187--260},
+  number = {2},
+  publisher = {ACM}
+}
+
+@ARTICLE{ME3,
+  author = {Schwalb, Martin and Ewerth, Ralph and Freisleben, Bernd},
+  title = {Fast motion estimation on graphics hardware for H. 264 video encoding},
+  journal = {Multimedia, IEEE Transactions on},
+  year = {2009},
+  volume = {11},
+  pages = {1--10},
+  number = {1},
+  publisher = {IEEE}
+}
+
+@ARTICLE{H265_Overview,
+  author = {Sullivan, Gary J and Ohm, Jens and Han, Woo-Jin and Wiegand, Thomas},
+  title = {Overview of the high efficiency video coding (HEVC) standard},
+  journal = {Circuits and Systems for Video Technology, IEEE Transactions on},
+  year = {2012},
+  volume = {22},
+  pages = {1649--1668},
+  number = {12},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{Paper3,
+  author = {Wang, Xiangwen and Song, Li and Chen, Min and Yang, Junjie},
+  title = {Paralleling variable block size motion estimation of HEVC on CPU
+	plus GPU platform},
+  booktitle = {Multimedia and Expo Workshops (ICMEW), 2013 IEEE International Conference
+	on},
+  year = {2013},
+  pages = {1--5},
+  organization = {IEEE}
+}
+
+@ARTICLE{h264joint,
+  author = {Wiegand, Thomas},
+  title = {Joint Final Committee Draft (JFCD) of Joint Video Specification (ITU-T
+	Rec. H. 264| ISO/IEC 14496-10 AVC)},
+  journal = {JVT-D157, Aug},
+  year = {2002}
+}
+
+@ARTICLE{H264_Overview,
+  author = {Wiegand, Thomas and Sullivan, Gary J and Bjontegaard, Gisle and Luthra,
+	Ajay},
+  title = {Overview of the H. 264/AVC video coding standard},
+  journal = {Circuits and Systems for Video Technology, IEEE Transactions on},
+  year = {2003},
+  volume = {13},
+  pages = {560--576},
+  number = {7},
+  publisher = {IEEE}
+}
+
+@INPROCEEDINGS{yi2005improved,
+  author = {Yi, Xiaoquan and Zhang, Jun and Ling, Nam and Shang, Weijia},
+  title = {Improved and simplified fast motion estimation for JM},
+  booktitle = {JVT-P021. doc, Joint Video Team (JVT) of ISO/IEC MPEG \& ITU-T VCEG,
+	16th meeting, Pozan, Poland},
+  year = {2005}
+}
+
